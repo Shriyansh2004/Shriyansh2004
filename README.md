@@ -1,27 +1,57 @@
-<h1 align="center">Hi 👋, I'm Anubhab Sahoo</h1>
-<h3 align="center">A passionate Backdend developer from India.</h3>
+<div style="width:90vw;display:flex;justify-content:center; ">
+    <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="1000" height="400">
+</div>
 
-- Currently working for a startup company Future Motion Private Limited **@karocharge (Developing backend, simulators, server)**
+<br>
+<h1 style="width: 90vw;text-align: center;">Hi buddy, I am Anubhab</h1>
 
-- 🌱 I’m currently learning **GenAI, DevOps, AIML, Data Science**
+<div style="width: 90vw; display:flex; justify-content:center;">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1&pause=1000&width=100&size=25&height=30&repeat=false&vCenter=true&lines=I+am+a" style="height:auto;text-align:center;"></img>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=500&vCenter=true&size=25&width=150&height=30&lines=Programmer;Developer;Designer;" style="height:auto;text-align:center;"></img>
+</div>
+<br>
 
-- 👯 I’m looking to collaborate on **Full-stack Project**
+<div style="width:90vw;display:flex;justify-content:center;align-items:center;position:relative;">
+<p style="text-align: center;padding-left: 20px;padding-right: 20px;max-width:700px; font-family: 'Fira Code', monospace; font-weight: 600; font-size:16px">
+My name is <span style="font-size:18px">Anubhab Sahoo</span>, a motivated professional with experience in full stack development and data science and analysis and. With expertise in data base management on AWS, I have supported decision-making processes. In full stack development, I have successfully designed and developed web applications with a focus on user experience and functionality. Additionally, I have demonstrated strong skills in database management. With a passion for leveraging technology and a dedication to continuous learning, I am well-equipped to contribute to innovative projects in the field of full stack development and data science and analysis.
 
-- 🤝 I’m looking for help with **Any backend related projects.**
+</p>
+</div>
+<br>
+<h1 style="width: 90vw;text-align: center; letter-spacing:2px">Skills</h1>
 
-- 💬 Ask me about **Spring Frameworks like Spring Boot, Core Java**
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=js,react,nextjs,ts,tailwind,redux,nodejs,express,spring,aws,git,linux,docker,mongodb,dynamodb,postgresql,figma,python,java" alt="Skills" />
+</div>
 
-- 📫 How to reach me **sanubhab629@gmail.com**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/anubhab-sahoo-76a9302b7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/anubhab-sahoo-76a9302b7" height="30" width="40" /></a>
-<a href="https://www.topcoder.com/members/767001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="767001" height="30" width="40" /></a>
+# GitHub Analytics
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Shriyansh2004&show_icons=true&theme=tokyonight" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shriyansh2004&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shriyansh2004&layout=compact&theme=tokyonight" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
+# Contribution Graph
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shriyansh2004&show_icons=true&locale=en&layout=compact" alt="shriyansh2004" /></p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shriyansh2004&theme=tokyo-night" />
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shriyansh2004&" alt="shriyansh2004" /></p>
+---
+
+<h1 style="width: 90vw;text-align: center; letter-spacing:2px">Connection</h1>
+<p align="left">
+
+<a href="https://www.linkedin.com/in/anubhab-sahoo-76a9302b7/"><img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="70" target="_blank"></a>
+
+
+ <div align="center">
+    <img src="https://komarev.com/ghpvc/?username=Shriyansh2004&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</div>
+<div align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=1000&color=7C3EED&center=true&vCenter=true&random=false&width=600&height=50&lines=Thanks+for+visiting!+%F0%9F%98%8A" alt="Thank you" />
+</div>
+ 
+</div>
+</div>
