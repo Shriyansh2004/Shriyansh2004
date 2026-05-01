@@ -54,9 +54,6 @@ Guiding users with structured career and opportunity insights.
 
 
 
-<p>
-Automated job scraping tool to fetch and display latest job listings efficiently.
-</p>
 
 </td>
 </tr>
