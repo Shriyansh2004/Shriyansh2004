@@ -16,27 +16,27 @@
  </a>
 </p>
 
----
-
-## Creation 
+## Creation
 
 ### Lakshya - Hirekarma
-🔗 https://lakshya.hirekarma.in  
-A platform focused on improving hiring workflows and candidate evaluation.
+- (https://lakshya.hirekarma.in)
+- A platform focused on improving hiring workflows and candidate evaluation.
+<img width="1470" height="803" alt="Screenshot 2026-05-01 at 5 32 21 PM" src="https://github.com/user-attachments/assets/a03341ec-1343-496f-8c1a-f488a94f295d" />
 
 ---
 
 ### Disha - Hirekarma
-🔗 https://disha.hirekarma.in  
-Guiding users with structured career and opportunity insights.
+- (https://disha.hirekarma.in)
+- Guiding users with structured career and opportunity insights.
+<img width="1470" height="803" alt="Screenshot 2026-05-01 at 5 28 54 PM" src="https://github.com/user-attachments/assets/bce830d3-f77b-4297-b9c5-00ab26492cf4" />
 
 ---
 
 ### Fast Job Scraper
-🔗 https://fastjobscraper.netlify.app/  
-Automated job scraping tool to fetch and display latest job listings efficiently.
+- (https://fastjobscraper.netlify.app/)
+- Automated job scraping tool to fetch and display latest job listings efficiently.
+<img width="1470" height="803" alt="Screenshot 2026-05-01 at 5 34 03 PM" src="https://github.com/user-attachments/assets/ac2f681e-8750-4b92-8905-b19130b8e8ff" />
 
----
 
 ## Tech Stack 
 
