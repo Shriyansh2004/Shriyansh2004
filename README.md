@@ -1,8 +1,8 @@
 <h1 align="center"> Hi 👋🏻, I'm Anubhab Sahoo </br> 
 </h1>
 
-<p align="center">Electrical Engineering Student ⚡</p>
-<p align="center">Building real-world tech & automation systems 🚀</p>
+<p align="center">Electrical Engineering Student </p>
+<p align="center">Building real-world tech & automation systems </p>
 
 <p align="center">
  <a href="mailto:sanubhab629@gmail.com" target="_blank">
@@ -18,27 +18,27 @@
 
 ---
 
-## Creation 👨‍💻
+## Creation 
 
-### 🚀 Lakshya - Hirekarma
+### Lakshya - Hirekarma
 🔗 https://lakshya.hirekarma.in  
 A platform focused on improving hiring workflows and candidate evaluation.
 
 ---
 
-### 🧭 Disha - Hirekarma
+### Disha - Hirekarma
 🔗 https://disha.hirekarma.in  
 Guiding users with structured career and opportunity insights.
 
 ---
 
-### ⚡ Fast Job Scraper
+### Fast Job Scraper
 🔗 https://fastjobscraper.netlify.app/  
 Automated job scraping tool to fetch and display latest job listings efficiently.
 
 ---
 
-## Tech Stack 💻
+## Tech Stack 
 
 ### Languages
 ![Java](https://img.shields.io/badge/-Java-000?style=for-the-badge&logo=java)
@@ -73,12 +73,12 @@ Automated job scraping tool to fetch and display latest job listings efficiently
 
 ---
 
-## GitHub Streak 🔥
+## GitHub Streak 
 ![Streak](https://streak-stats.demolab.com/?user=Shriyansh2004&theme=radical)
 
 ---
 
-## 💡 Quote
+## Quote
 
 ``` java
 if (codeWorking){
