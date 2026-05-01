@@ -18,26 +18,49 @@
 
 ## Creation
 
-### Lakshya - Hirekarma
-- (https://lakshya.hirekarma.in)
-- A platform focused on improving hiring workflows and candidate evaluation.
-<img width="1470" height="803" alt="Screenshot 2026-05-01 at 5 32 21 PM" src="https://github.com/user-attachments/assets/a03341ec-1343-496f-8c1a-f488a94f295d" />
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+<h3>Lakshya - Hirekarma</h3>
 
-### Disha - Hirekarma
-- (https://disha.hirekarma.in)
-- Guiding users with structured career and opportunity insights.
-<img width="1470" height="803" alt="Screenshot 2026-05-01 at 5 28 54 PM" src="https://github.com/user-attachments/assets/bce830d3-f77b-4297-b9c5-00ab26492cf4" />
+<a href="https://lakshya.hirekarma.in" target="_blank">
+  <img src="https://github.com/user-attachments/assets/a03341ec-1343-496f-8c1a-f488a94f295d" width="100%" style="border-radius:10px;" />
+</a>
 
----
+<p>
+A platform focused on improving hiring workflows and candidate evaluation.
+</p>
 
-### Fast Job Scraper
-- (https://fastjobscraper.netlify.app/)
-- Automated job scraping tool to fetch and display latest job listings efficiently.
-<img width="1470" height="803" alt="Screenshot 2026-05-01 at 5 34 03 PM" src="https://github.com/user-attachments/assets/ac2f681e-8750-4b92-8905-b19130b8e8ff" />
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Disha - Hirekarma</h3>
+
+<a href="https://disha.hirekarma.in" target="_blank">
+  <img src="https://github.com/user-attachments/assets/bce830d3-f77b-4297-b9c5-00ab26492cf4" width="100%" style="border-radius:10px;" />
+</a>
+
+<p>
+Guiding users with structured career and opportunity insights.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
 
 
+
+<p>
+Automated job scraping tool to fetch and display latest job listings efficiently.
+</p>
+
+</td>
+</tr>
+</table>
 ## Tech Stack 
 
 ### Languages
