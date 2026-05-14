@@ -36,7 +36,7 @@ A platform focused on improving hiring workflows and candidate evaluation.
 
 <td width="50%" valign="top">
 
-<h3>Disha - Hirekarma</h3>
+<h3>Maa Tara-Tarini Temple</h3>
 <a href="https://maataratarini.hirekarma.in/" target="_blank">
   <img src="https://github.com/user-attachments/assets/8d8fbcc8-06d4-4223-b818-820b3fa43d18" />
 </a>
