@@ -37,7 +37,14 @@ A platform focused on improving hiring workflows and candidate evaluation.
 <td width="50%" valign="top">
 
 <h3>Disha - Hirekarma</h3>
+<a href="https://maataratarini.hirekarma.in/" target="_blank">
+  <img src="https://github.com/user-attachments/assets/8d8fbcc8-06d4-4223-b818-820b3fa43d18" />
+</a>
 
+<p>
+Website for Maa Tara-Tarini Temple
+</p>
+<h3>Lakshya - Hirekarma</h3>
 <a href="https://disha.hirekarma.in" target="_blank">
   <img src="https://github.com/user-attachments/assets/bce830d3-f77b-4297-b9c5-00ab26492cf4" width="100%" style="border-radius:10px;" />
 </a>
@@ -45,6 +52,9 @@ A platform focused on improving hiring workflows and candidate evaluation.
 <p>
 Guiding users with structured career and opportunity insights.
 </p>
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
