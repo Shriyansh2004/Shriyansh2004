@@ -25,7 +25,7 @@
 <h3>Lakshya - Hirekarma</h3>
 
 <a href="https://lakshya.hirekarma.in" target="_blank">
-  <img src="https://github.com/user-attachments/assets/a03341ec-1343-496f-8c1a-f488a94f295d" width="100%" style="border-radius:10px;" />
+  <img src="https://github.com/user-attachments/assets/007420b5-4018-4c5d-a471-577ca4fbafdc" />
 </a>
 
 <p>
