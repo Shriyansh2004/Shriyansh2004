@@ -1,7 +1,7 @@
 <h1 align="center"> Hi 👋🏻, I'm Anubhab Sahoo </br> 
 </h1>
 
-<p align="center">Electrical Engineering Student </p>
+<p align="center">Backend Developer</p>
 <p align="center">Building real-world tech & automation systems </p>
 
 <p align="center">
