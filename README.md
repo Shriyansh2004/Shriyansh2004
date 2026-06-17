@@ -11,12 +11,10 @@
 
 <br/>
 
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=00D4AA&center=true&vCenter=true&width=700&lines= Graduated +EE+student+building+backend+systems;Spring+Boot+%7C+Java+%7C+Next.js+%7C+PostgreSQL;Currently+shipping+EV+charging+infrastructure"
-    alt="Animated typing taglines"
-  />
-</a>
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=00D4AA&background=0D1117&center=true&vCenter=true&width=700&lines=Graduated+EE+student+building+backend+systems;Spring+Boot+%7C+Java+%7C+Next.js+%7C+PostgreSQL;Currently+shipping+EV+charging+infrastructure"
+  alt="Animated typing taglines"
+/>
 
 <br/><br/>
 
