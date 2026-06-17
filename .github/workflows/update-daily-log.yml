@@ -1,0 +1,120 @@
+name: Update Daily Push Log
+
+on:
+  schedule:
+    # Daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-activity:
+    name: Refresh README activity section
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build terminal-style activity log
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: Shriyansh2004
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import re
+          import subprocess
+          import urllib.request
+          from datetime import datetime, timezone
+
+          username = os.environ["GH_USERNAME"]
+          token = os.environ["GH_TOKEN"]
+          req = urllib.request.Request(
+              f"https://api.github.com/users/{username}/events?per_page=15",
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "daily-push-log-workflow",
+              },
+          )
+
+          with urllib.request.urlopen(req) as response:
+              events = json.load(response)
+
+          lines = []
+          for event in events:
+              event_type = event.get("type")
+              created = event.get("created_at", "")
+              try:
+                  ts = datetime.fromisoformat(created.replace("Z", "+00:00")).astimezone(
+                      timezone.utc
+                  ).strftime("%Y-%m-%d %H:%M UTC")
+              except ValueError:
+                  ts = created
+
+              repo = event.get("repo", {}).get("name", "unknown/repo")
+
+              if event_type == "PushEvent":
+                  branch = "main"
+                  payload = event.get("payload", {})
+                  ref = payload.get("ref", "")
+                  if ref.startswith("refs/heads/"):
+                      branch = ref.removeprefix("refs/heads/")
+                  lines.append(f"[{ts}] $ git push origin {branch} ? {repo}")
+              elif event_type == "PullRequestEvent":
+                  action = event.get("payload", {}).get("action", "updated")
+                  pr = event.get("payload", {}).get("pull_request", {}).get("number", "?")
+                  lines.append(f"[{ts}] $ gh pr {action} #{pr} ? {repo}")
+              elif event_type == "IssuesEvent":
+                  action = event.get("payload", {}).get("action", "updated")
+                  issue = event.get("payload", {}).get("issue", {}).get("number", "?")
+                  lines.append(f"[{ts}] $ gh issue {action} #{issue} ? {repo}")
+              elif event_type == "CreateEvent":
+                  ref_type = event.get("payload", {}).get("ref_type", "ref")
+                  lines.append(f"[{ts}] $ git create {ref_type} ? {repo}")
+
+              if len(lines) >= 8:
+                  break
+
+          if not lines:
+              now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+              lines = [
+                  f"[{now}] $ echo 'No recent events — side quest in progress...'",
+                  f"[{now}] $ status --alive",
+              ]
+
+          log_block = "```text\n" + "\n".join(lines) + "\n```"
+
+          with open("README.md", encoding="utf-8") as handle:
+              content = handle.read()
+
+          updated = re.sub(
+              r"(<!--START_SECTION:activity-->)(.*?)(<!--END_SECTION:activity-->)",
+              rf"\1\n{log_block}\n\3",
+              content,
+              count=1,
+              flags=re.DOTALL,
+          )
+
+          if updated == content:
+              raise SystemExit("Activity markers not found in README.md")
+
+          with open("README.md", "w", encoding="utf-8") as handle:
+              handle.write(updated)
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            git commit --allow-empty -m "?? keep daily push log workflow alive"
+          else
+            git commit -m "? update daily push log"
+          fi
+          git push

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="120" viewBox="0 0 820 120" role="img" aria-label="contribution snake placeholder">
+  <rect width="820" height="120" fill="#0d1117"/>
+  <text x="410" y="55" text-anchor="middle" fill="#6e7681" font-family="ui-monospace, monospace" font-size="14">= contribution snake generates after first workflow run</text>
+  <text x="410" y="80" text-anchor="middle" fill="#00d4aa" font-family="ui-monospace, monospace" font-size="12">Actions ’ Generate Contribution Snake ’ Run workflow</text>
+  <rect x="404" y="92" width="12" height="18" fill="#00d4aa" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
