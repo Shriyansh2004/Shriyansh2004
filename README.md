@@ -7,9 +7,7 @@
 
 <!-- ─── HERO / BOOT SEQUENCE ─────────────────────────────────────────────── -->
 
-<img src="https://raw.githubusercontent.com/Shriyansh2004/Shriyansh2004/main/assets/terminal-header.svg" alt="macOS terminal title bar" width="820"/>
-
-<img src="https://raw.githubusercontent.com/Shriyansh2004/Shriyansh2004/main/assets/boot-sequence.svg" alt="terminal boot sequence" width="820"/>
+<img src="https://raw.githubusercontent.com/Shriyansh2004/Shriyansh2004/main/assets/terminal-window.svg?v=2" alt="animated macOS terminal boot sequence" width="820"/>
 
 <br/>
 
