@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build-snake:
-    name: Render contribution snake SVG
+    name: Render contribution snake animation
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -19,22 +19,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake animation
+      - name: Generate snake SVG and GIF
         uses: Platane/snk@v3
         with:
           github_user_name: Shriyansh2004
-          outputs: assets/github-contribution-grid-snake.svg
-          snake_color: "00d4aa"
-          dist_plays_on_load: true
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#00d4aa&palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=#00d4aa&palette=github-dark
 
-      - name: Commit snake asset
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-contribution-grid-snake.svg
-          if git diff --staged --quiet; then
-            echo "Snake SVG unchanged."
-            exit 0
-          fi
-          git commit -m "?? update contribution snake"
-          git push
+      - name: Push snake assets to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "?? update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
