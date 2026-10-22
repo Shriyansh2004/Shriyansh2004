@@ -345,8 +345,6 @@ _OCPP 2.0.1 virtual charge points · CSMS simulator · FastAPI · WebSockets_
 [2026-09-25 09:54 UTC] $ git push origin main ? Shriyansh2004/PORTFOLIO-
 [2026-09-23 13:24 UTC] $ git push origin main ? Shriyansh2004/CloudVendorManagementSystem
 [2026-09-23 13:23 UTC] $ git create branch ? Shriyansh2004/CloudVendorManagementSystem
-[2026-09-21 08:34 UTC] $ git push origin main ? Shriyansh2004/Finance_Agent
-[2026-09-21 10:51 UTC] $ git push origin main ? Shriyansh2004/Git_Github
 ```
 <!--END_SECTION:activity-->
 
